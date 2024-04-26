@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PruebaTecnicaOnOff.Model\PruebaTecnicaOnOff.Model.csproj" />
+    <ProjectReference Include="..\PruebaTecnicaOnOff.Repository\PruebaTecnicaOnOff.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
